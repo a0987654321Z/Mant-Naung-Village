@@ -1,0 +1,1993 @@
+အောက်မှာ **မန့်နောင်ရွာ ဘုရားကျောင်းသစ် + ရပ်ရွာဖွံ့ဖြိုးရေး Master App** အတွက် အရင်လိုအပ်ချက်အားလုံးကို **အိမ်ထောင်စုစာရင်း + ချောင်းသဲထုတ်ယူမှုစာရင်း** အပါအဝင် တစ်ခုတည်းသော **Manus Full Build Prompt** အဖြစ် ပေါင်းစည်းရေးပေးထားပါတယ်။
+
+# MANUS MASTER BUILD PROMPT
+
+# MANT NAUNG VILLAGE
+
+# COMMUNITY DEVELOPMENT + TEMPLE + HOUSEHOLD + FINANCE + RESOURCE MANAGEMENT SYSTEM
+
+============================================================
+
+## 1. PROJECT NAME
+
+============================================================
+
+မြန်မာအမည်:
+**မန့်နောင်ရွာ ဘုရားကျောင်းသစ် + ရပ်ရွာဖွံ့ဖြိုးရေး စီမံခန့်ခွဲမှုစနစ်**
+
+English:
+**Mant Naung Village Community Development Management System**
+
+Build a complete production-ready application that replaces the existing Excel-based workflow with a modern database-backed management system.
+
+IMPORTANT:
+
+* Use the supplied Excel workbook as the initial source/reference.
+* Import existing workbook data.
+* Preserve useful existing fields, formulas and records.
+* Do NOT build only an Excel viewer.
+* Build a real application.
+* Use Burmese + English only.
+* REMOVE ALL SHAN LANGUAGE.
+* Do not include Shan-language UI, labels or data fields unless they are actual imported historical data that must be preserved.
+* All major screens must support Burmese and English.
+
+============================================================
+
+## 2. SOURCE WORKBOOK
+
+============================================================
+
+Use the uploaded workbook:
+
+`Mant_Naung_Village_Community_Development_Master_Burmese_English.xlsx`
+
+Inspect it before building.
+
+Automatically identify:
+
+* Sheet names
+* Columns
+* Existing data
+* Formulas
+* Calculations
+* Formatting
+* Existing reports
+* Existing dashboard information
+
+Expected existing workbook modules include:
+
+1. Dashboard
+2. Settings
+3. Instructions
+4. Projects_Master
+5. Temple_Construction
+6. Roads
+7. Bridges_Drainage
+8. Water_Supply
+9. Electricity_StreetLight
+10. PublicBuildings
+11. School
+12. FireStation
+13. EmergencyServices
+14. Machinery_Vehicles
+15. Stock_Inventory
+16. Donations
+17. Labor_Wages
+18. Budget_Summary
+19. Monthly_CashFlow
+20. Reports
+21. Pivot_Projects
+22. Pivot_Roads
+23. Pivot_Stock
+
+Add new modules:
+
+24. Households
+25. Household_Members
+26. Household_Summary
+27. Stream_Sand_Extraction
+28. Sand_Extraction_Summary
+29. Documents
+30. Photos
+31. Audit_Logs
+
+Do not delete useful existing workbook information.
+
+============================================================
+
+## 3. LANGUAGE
+
+============================================================
+
+Primary:
+
+မြန်မာ
+
+Secondary:
+
+English
+
+Language selector:
+
+`မြန်မာ | English`
+
+Examples:
+
+`အိမ်ထောင်စုစာရင်း / Household Register`
+
+`ချောင်းသဲထုတ်ယူမှုစာရင်း / Stream Sand Extraction Register`
+
+REMOVE SHAN LANGUAGE.
+
+Use:
+
+* Noto Sans Myanmar
+* Inter / system English font
+
+============================================================
+
+## 4. PLATFORM
+
+============================================================
+
+Build:
+
+* Responsive Web App
+* Desktop
+* Laptop
+* Tablet
+* Android browser
+* iPhone browser
+
+Preferred architecture:
+
+Frontend:
+
+* React
+* TypeScript
+* Vite
+* Material UI
+
+Backend:
+
+* Node.js
+* TypeScript
+
+Database:
+
+* PostgreSQL
+
+Authentication:
+
+* Secure authentication
+* Role-based access control
+
+Storage:
+
+* Secure object/file storage
+
+Deployment:
+
+* Production-ready deployment
+
+PWA:
+
+* Installable
+* Responsive
+* Offline-capable where practical
+
+============================================================
+
+## 5. MAIN NAVIGATION
+
+============================================================
+
+Dashboard
+
+1. Dashboard
+2. Households
+3. Population
+4. Projects
+5. Temple Construction
+6. Roads
+7. Bridges & Drainage
+8. Water Supply
+9. Electricity & Street Lights
+10. Public Buildings
+11. School
+12. Fire Station
+13. Emergency Services
+14. Machinery & Vehicles
+15. Stock & Inventory
+16. Stream Sand Extraction
+17. Donations
+18. Labor & Wages
+19. Budget
+20. Expenses
+21. Cash Flow
+22. Reports
+23. Documents
+24. Photos
+25. Users
+26. Audit Logs
+27. Settings
+
+============================================================
+
+## 6. DASHBOARD
+
+============================================================
+
+Create a professional community-development dashboard.
+
+KPI cards:
+
+* Total Households
+* Total Population
+* Male
+* Female
+* Children
+* Elderly
+* Disabled
+* Total Projects
+* Active Projects
+* Completed Projects
+* Total Project Budget
+* Actual Spending
+* Remaining Budget
+* Total Donations
+* Total Expenses
+* Cash Balance
+* Sand Extraction Quantity
+* Sand Extraction Revenue
+* Road Projects
+* Water Projects
+* Electricity Projects
+* Temple Progress
+
+Charts:
+
+* Population by gender
+* Population by age group
+* Household size
+* Project status
+* Project category
+* Budget vs actual
+* Monthly income
+* Monthly expenses
+* Donations
+* Cash flow
+* Sand extraction quantity
+* Sand extraction revenue
+* Road progress
+* Temple progress
+* Inventory status
+
+Filters:
+
+* Date range
+* Project
+* Category
+* Location
+* Status
+
+============================================================
+
+## 7. HOUSEHOLD REGISTER
+
+============================================================
+
+Create:
+
+**အိမ်ထောင်စုစာရင်း / Household Register**
+
+Fields:
+
+* No.
+* Household ID
+* Head of Household
+* NRC No.
+* Sex
+* Age
+* Total Household Members
+* Male
+* Female
+* Children
+* Elderly
+* Disabled Persons
+* Occupation
+* Phone
+* House Type
+* Electricity
+* Water Supply
+* Toilet
+* Land Acres
+* Income Type
+* Monthly Income
+* Support Need
+* Remarks
+* Registration Date
+* Updated Date
+
+Features:
+
+* Create
+* View
+* Edit
+* Delete
+* Search
+* Filter
+* Sort
+* Pagination
+* Import Excel
+* Export Excel
+* CSV
+* PDF
+* Print
+
+Household ID must be unique.
+
+============================================================
+
+## 8. HOUSEHOLD MEMBERS
+
+============================================================
+
+Fields:
+
+* Member ID
+* Household ID
+* Name
+* Relationship
+* Sex
+* Date of Birth
+* Age
+* NRC
+* Occupation
+* Education
+* Phone
+* Disability
+* Remarks
+
+Relationships:
+
+* Head
+* Spouse
+* Son
+* Daughter
+* Parent
+* Grandparent
+* Relative
+* Other
+
+Automatically calculate:
+
+* Household member count
+* Male
+* Female
+* Children
+* Elderly
+* Disabled
+
+============================================================
+
+## 9. POPULATION MANAGEMENT
+
+============================================================
+
+Create population analytics.
+
+Categories:
+
+* Male
+* Female
+* Children
+* Working age
+* Elderly
+* Disabled
+
+Reports:
+
+* Total population
+* Household average size
+* Gender ratio
+* Age distribution
+* Population changes
+* Household distribution
+
+============================================================
+
+## 10. PROJECT MASTER
+
+============================================================
+
+Fields:
+
+* Project ID
+* Project Name
+* Burmese Name
+* English Name
+* Category
+* Location
+* Start Date
+* Expected Completion
+* Actual Completion
+* Status
+* Priority
+* Planned Budget
+* Approved Budget
+* Actual Cost
+* Funding Source
+* Project Manager
+* Contractor
+* Progress %
+* Description
+* Remarks
+
+Status:
+
+* Planned
+* Proposed
+* Approved
+* In Progress
+* Suspended
+* Completed
+* Cancelled
+
+============================================================
+
+## 11. TEMPLE CONSTRUCTION
+
+============================================================
+
+Track:
+
+* Foundation
+* Columns
+* Walls
+* Roof
+* Flooring
+* Electrical
+* Plumbing
+* Painting
+* Decoration
+* Furniture
+* Other works
+
+Fields:
+
+* Work ID
+* Work Description
+* Quantity
+* Unit
+* Unit Price
+* Estimated Cost
+* Actual Cost
+* Progress %
+* Contractor
+* Labor
+* Start Date
+* Completion Date
+* Remarks
+
+Include:
+
+* BOQ
+* Budget
+* Actual cost
+* Progress
+* Payments
+* Photos
+* Documents
+
+============================================================
+
+## 12. ROADS
+
+============================================================
+
+Fields:
+
+* Road ID
+* Road Name
+* Location
+* Road Type
+* Length
+* Width
+* Surface Type
+* Planned Budget
+* Actual Cost
+* Start Date
+* Completion Date
+* Progress %
+* Contractor
+* Status
+* Remarks
+
+============================================================
+
+## 13. BRIDGES & DRAINAGE
+
+============================================================
+
+Track:
+
+* Bridges
+* Culverts
+* Drainage
+* Water crossings
+
+Fields:
+
+* Project ID
+* Name
+* Location
+* Type
+* Length
+* Width
+* Materials
+* Budget
+* Actual Cost
+* Progress
+* Contractor
+* Status
+* Remarks
+
+============================================================
+
+## 14. WATER SUPPLY
+
+============================================================
+
+Track:
+
+* Wells
+* Tube wells
+* Water tanks
+* Pipelines
+* Pumps
+* Distribution systems
+
+Fields:
+
+* Water Project ID
+* Location
+* Type
+* Capacity
+* Households Served
+* Budget
+* Actual Cost
+* Status
+* Maintenance Date
+* Remarks
+
+============================================================
+
+## 15. ELECTRICITY & STREET LIGHT
+
+============================================================
+
+Track:
+
+* Electricity connections
+* Poles
+* Street lights
+* Transformers
+* Solar lights
+* Wiring
+
+Fields:
+
+* Asset ID
+* Location
+* Asset Type
+* Quantity
+* Capacity
+* Cost
+* Installation Date
+* Condition
+* Maintenance Date
+* Status
+* Remarks
+
+============================================================
+
+## 16. PUBLIC BUILDINGS
+
+============================================================
+
+Track:
+
+* Village office
+* Community hall
+* Clinic
+* Library
+* Other buildings
+
+Include:
+
+* Construction
+* Maintenance
+* Budget
+* Expenses
+* Photos
+* Documents
+* Condition
+
+============================================================
+
+## 17. SCHOOL
+
+============================================================
+
+Track:
+
+* School
+* Students
+* Teachers
+* Classrooms
+* Furniture
+* Equipment
+* Buildings
+* Repairs
+* Education projects
+
+KPIs:
+
+* Students
+* Teachers
+* Classrooms
+* Required classrooms
+* Improvement projects
+
+============================================================
+
+## 18. FIRE STATION
+
+============================================================
+
+Track:
+
+* Fire station
+* Fire equipment
+* Fire vehicles
+* Personnel
+* Maintenance
+* Emergency readiness
+
+============================================================
+
+## 19. EMERGENCY SERVICES
+
+============================================================
+
+Track:
+
+* Emergency contacts
+* Emergency vehicles
+* Emergency personnel
+* Incidents
+* Response records
+* Equipment
+
+============================================================
+
+## 20. MACHINERY & VEHICLES
+
+============================================================
+
+Assets:
+
+* Excavator
+* Wheel loader
+* Tractor
+* Truck
+* Water tanker
+* Generator
+* Other machinery
+
+Fields:
+
+* Asset ID
+* Name
+* Type
+* Registration No.
+* Owner
+* Purchase Date
+* Purchase Price
+* Current Value
+* Fuel Type
+* Operating Hours
+* Condition
+* Location
+* Operator
+* Status
+
+Maintenance:
+
+* Maintenance Date
+* Maintenance Type
+* Parts
+* Labor
+* Cost
+* Next Service Date
+* Remarks
+
+============================================================
+
+## 21. STOCK & INVENTORY
+
+============================================================
+
+Items:
+
+* Cement
+* Sand
+* Stone
+* Steel
+* Brick
+* Diesel
+* Gasoline
+* Tools
+* Construction materials
+* Other supplies
+
+Fields:
+
+* Item ID
+* Item Name
+* Category
+* Unit
+* Opening Stock
+* Received
+* Issued
+* Balance
+* Unit Cost
+* Total Value
+* Minimum Stock
+* Supplier
+* Storage Location
+
+Formula:
+
+Balance = Opening + Received - Issued
+
+Create low-stock alerts.
+
+============================================================
+
+# 22. STREAM SAND EXTRACTION
+
+# ချောင်းသဲထုတ်ယူမှုစာရင်း
+
+============================================================
+
+Create a complete dedicated module:
+
+**ချောင်းသဲထုတ်ယူမှုစာရင်း / Stream Sand Extraction Register**
+
+Purpose:
+
+Manage, record, monitor and report sand extraction from streams/riverbeds for community development, construction projects and authorized uses.
+
+IMPORTANT:
+
+This module must track authorization, quantity, transport, revenue, expenses, environmental inspection and project usage.
+
+---
+
+## 22.1 BASIC INFORMATION
+
+---
+
+Fields:
+
+* No.
+* Extraction ID
+* Date
+* Stream Name
+* Extraction Location
+* Village/Area
+* GPS Latitude
+* GPS Longitude
+* Extractor Name
+* Extractor Phone
+* Permit No.
+* Permit Date
+* Permit Expiry Date
+* Inspector
+* Remarks
+
+---
+
+## 22.2 SAND INFORMATION
+
+---
+
+Fields:
+
+* Sand Type
+* Sand Quality
+* Unit
+* Quantity per Trip
+* Number of Trips
+* Total Quantity
+* Estimated Value
+
+Units:
+
+* Cubic feet
+* Cubic meter
+* Ton
+* Truck
+* Other
+
+Formula:
+
+`Total Quantity = Quantity per Trip × Number of Trips`
+
+---
+
+## 22.3 VEHICLE / TRANSPORT
+
+---
+
+Fields:
+
+* Vehicle Type
+* Vehicle No.
+* Driver Name
+* Driver Phone
+* Loading Date
+* Loading Time
+* Destination
+* Project
+* Number of Trips
+
+Vehicle types:
+
+* Truck
+* Tractor
+* Trailer
+* Other
+
+---
+
+## 22.4 RATE & REVENUE
+
+---
+
+Fields:
+
+* Sand Rate
+* Total Revenue
+* Permit Fee
+* Transport Cost
+* Labor Cost
+* Other Expense
+* Net Revenue
+
+Formulas:
+
+`Total Revenue = Total Quantity × Sand Rate`
+
+`Total Expense = Permit Fee + Transport Cost + Labor Cost + Other Expense`
+
+`Net Revenue = Total Revenue - Total Expense`
+
+Use DECIMAL data types for money.
+
+---
+
+## 22.5 PROJECT USAGE
+
+---
+
+Track where extracted sand is used:
+
+* Temple Construction
+* Road
+* Bridge
+* Drainage
+* Water Project
+* Public Building
+* School
+* Other Community Project
+* Sale
+* Other
+
+Link extraction records to Project ID.
+
+---
+
+## 22.6 ENVIRONMENTAL MONITORING
+
+---
+
+Fields:
+
+* Inspection Date
+* Inspector
+* Environmental Condition
+* Stream Bank Condition
+* Water Condition
+* Extraction Site Condition
+* Restoration Required
+* Restoration Date
+* Restoration Cost
+* Environmental Remarks
+
+Status:
+
+* Normal
+* Monitoring Required
+* Restoration Required
+* Closed
+
+Add photo evidence.
+
+---
+
+## 22.7 SAND EXTRACTION DASHBOARD
+
+---
+
+KPI:
+
+* Today's Extraction
+* Monthly Extraction
+* Yearly Extraction
+* Total Extraction
+* Number of Trips
+* Total Revenue
+* Total Expenses
+* Net Revenue
+* Permit Count
+* Active Extraction Sites
+* Restoration Required
+
+Charts:
+
+* Extraction by month
+* Extraction by stream
+* Extraction by location
+* Extraction by project
+* Revenue by month
+* Expense by month
+* Quantity by sand type
+* Trips by vehicle
+
+---
+
+## 22.8 SAND EXTRACTION REPORTS
+
+---
+
+Create:
+
+1. Daily Extraction Report
+2. Monthly Extraction Report
+3. Annual Extraction Report
+4. Stream-wise Report
+5. Location-wise Report
+6. Extractor-wise Report
+7. Vehicle-wise Report
+8. Project Usage Report
+9. Revenue Report
+10. Expense Report
+11. Permit Report
+12. Environmental Inspection Report
+13. Restoration Report
+
+Export:
+
+* Excel
+* CSV
+* PDF
+* Print
+
+---
+
+## 22.9 SAND EXTRACTION RECORD
+
+---
+
+Every record should show:
+
+`Date`
+
+`Stream`
+
+`Location`
+
+`Extractor`
+
+`Permit`
+
+`Vehicle`
+
+`Quantity`
+
+`Trips`
+
+`Rate`
+
+`Revenue`
+
+`Expenses`
+
+`Net Revenue`
+
+`Project`
+
+`Environmental Status`
+
+`Photos`
+
+`Documents`
+
+============================================================
+
+## 23. DONATIONS
+
+============================================================
+
+Fields:
+
+* Donation ID
+* Date
+* Donor
+* Phone
+* Donation Type
+* Cash Amount
+* Item
+* Quantity
+* Unit
+* Estimated Value
+* Purpose
+* Project
+* Payment Method
+* Receipt No.
+* Notes
+
+Types:
+
+* Cash
+* Materials
+* Labor
+* Machinery
+* Food
+* Other
+
+Generate donation receipt.
+
+============================================================
+
+## 24. LABOR & WAGES
+
+============================================================
+
+Track:
+
+* Worker
+* Skill
+* Date
+* Project
+* Attendance
+* Daily Wage
+* Overtime
+* Total Wage
+* Payment Status
+
+Worker types:
+
+* Skilled
+* Semi-skilled
+* General Labor
+* Volunteer
+
+============================================================
+
+## 25. BUDGET
+
+============================================================
+
+Track:
+
+* Project
+* Approved Budget
+* Revised Budget
+* Actual Spending
+* Remaining
+* Variance
+
+Formula:
+
+`Remaining = Approved Budget - Actual Spending`
+
+Create overspending warning.
+
+============================================================
+
+## 26. EXPENSES
+
+============================================================
+
+Fields:
+
+* Expense ID
+* Date
+* Category
+* Description
+* Project
+* Supplier
+* Amount
+* Payment Method
+* Receipt No.
+* Approved By
+* Paid By
+* Attachment
+* Remarks
+
+Categories:
+
+* Construction
+* Materials
+* Labor
+* Fuel
+* Transport
+* Machinery
+* Maintenance
+* Administration
+* Emergency
+* Other
+
+============================================================
+
+## 27. CASH FLOW
+
+============================================================
+
+Income:
+
+* Donations
+* Contributions
+* Grants
+* Sand extraction revenue
+* Other income
+
+Expenses:
+
+* Construction
+* Labor
+* Materials
+* Transport
+* Machinery
+* Maintenance
+* Administration
+* Emergency
+* Other
+
+Formula:
+
+`Closing Balance = Opening Balance + Total Income - Total Expense`
+
+============================================================
+
+## 28. DOCUMENT MANAGEMENT
+
+============================================================
+
+Support:
+
+* PDF
+* Excel
+* Word
+* Images
+* Receipts
+* Contracts
+* Permits
+* Project documents
+* Sand extraction permits
+
+Link documents to any module.
+
+============================================================
+
+## 29. PHOTO MANAGEMENT
+
+============================================================
+
+Support:
+
+* Project photos
+* Before photos
+* During photos
+* After photos
+* Sand extraction site photos
+* Environmental inspection photos
+* Household documentation photos where appropriate
+
+Metadata:
+
+* Date
+* Location
+* Description
+* Uploaded By
+* Module
+* Record ID
+
+============================================================
+
+## 30. REPORT CENTER
+
+============================================================
+
+Create report center for:
+
+* Households
+* Population
+* Projects
+* Temple
+* Roads
+* Bridges
+* Water
+* Electricity
+* Buildings
+* School
+* Fire Station
+* Emergency
+* Machinery
+* Inventory
+* Sand Extraction
+* Donations
+* Labor
+* Budget
+* Expenses
+* Cash Flow
+
+Every report supports:
+
+* Search
+* Filters
+* Date range
+* Excel
+* CSV
+* PDF
+* Print
+
+============================================================
+
+## 31. USER MANAGEMENT
+
+============================================================
+
+Roles:
+
+SUPER ADMIN
+
+ADMIN
+
+PROJECT MANAGER
+
+FINANCE
+
+DATA ENTRY
+
+VIEWER
+
+Permissions must be module-based.
+
+Examples:
+
+* View
+* Create
+* Edit
+* Delete
+* Approve
+* Export
+* Import
+* Manage Users
+
+============================================================
+
+## 32. AUDIT LOG
+
+============================================================
+
+Record:
+
+* User
+* Date/time
+* Module
+* Record ID
+* Action
+* Old data
+* New data
+* Device/IP if available
+
+Actions:
+
+* Create
+* Update
+* Delete
+* Login
+* Logout
+* Import
+* Export
+* Approve
+* Reject
+
+============================================================
+
+## 33. SEARCH
+
+============================================================
+
+Global search:
+
+* Household
+* Person
+* Project
+* Donation
+* Expense
+* Machinery
+* Inventory
+* Sand extraction
+* Documents
+
+Support Burmese and English.
+
+============================================================
+
+## 34. EXCEL IMPORT / EXPORT
+
+============================================================
+
+Import the supplied workbook.
+
+Create automatic mapping.
+
+Show:
+
+* Imported records
+* Skipped records
+* Duplicates
+* Invalid records
+* Missing fields
+* Mapping errors
+
+Never silently discard data.
+
+Export all modules to Excel.
+
+============================================================
+
+## 35. BACKUP
+
+============================================================
+
+Support:
+
+* Database backup
+* Excel backup
+* JSON backup
+* Restore
+* Backup history
+
+Only authorized users may restore.
+
+============================================================
+
+## 36. SECURITY
+
+============================================================
+
+Implement:
+
+* Secure authentication
+* Password hashing
+* RBAC
+* Input validation
+* SQL injection protection
+* XSS protection
+* CSRF protection where applicable
+* Secure file upload
+* File validation
+* Audit logging
+* Protected API
+* Environment secrets
+* No hardcoded credentials
+
+============================================================
+
+## 37. DATABASE
+
+============================================================
+
+Create normalized tables:
+
+users
+
+roles
+
+permissions
+
+households
+
+household_members
+
+projects
+
+temple_projects
+
+roads
+
+bridges
+
+drainage
+
+water_projects
+
+electricity_projects
+
+public_buildings
+
+schools
+
+fire_station
+
+emergency_services
+
+machinery
+
+machinery_maintenance
+
+inventory_items
+
+inventory_transactions
+
+sand_extraction
+
+sand_extraction_trips
+
+sand_extraction_expenses
+
+sand_extraction_permits
+
+sand_extraction_inspections
+
+sand_extraction_projects
+
+donations
+
+laborers
+
+labor_attendance
+
+wages
+
+budgets
+
+expenses
+
+cash_transactions
+
+documents
+
+photos
+
+reports
+
+audit_logs
+
+settings
+
+All major tables should include:
+
+* UUID
+* created_at
+* updated_at
+* created_by
+* updated_by
+* soft_delete where appropriate
+
+Financial values must use DECIMAL, not FLOAT/DOUBLE.
+
+============================================================
+
+## 38. API
+
+============================================================
+
+Build typed production APIs.
+
+For each module:
+
+* List
+* Detail
+* Create
+* Update
+* Delete
+* Search
+* Filter
+* Pagination
+
+Additional APIs:
+
+* Dashboard
+* Reports
+* Import
+* Export
+* Upload
+* Authentication
+* Backup
+* Restore
+
+============================================================
+
+## 39. MOBILE
+
+============================================================
+
+Mobile-first forms for:
+
+* Household registration
+* Household members
+* Project update
+* Donation
+* Expense
+* Inventory
+* Sand extraction
+* Inspection
+* Photo upload
+
+Support camera/photo upload where browser allows.
+
+============================================================
+
+## 40. OFFLINE / PWA
+
+============================================================
+
+Implement PWA.
+
+Show:
+
+`Online`
+
+or
+
+`Offline`
+
+When offline:
+
+* Allow data entry where safe
+* Store pending changes locally
+* Synchronize when connection returns
+* Show sync status
+* Prevent duplicate submissions
+
+============================================================
+
+## 41. NOTIFICATIONS
+
+============================================================
+
+Alerts:
+
+* Low inventory
+* Budget exceeded
+* Project deadline
+* Maintenance due
+* Missing household data
+* Pending approval
+* New donation
+* Sand extraction permit expiry
+* Environmental restoration required
+* Important administrative notices
+
+============================================================
+
+## 42. VALIDATION
+
+============================================================
+
+Rules:
+
+* Money cannot be negative unless explicitly configured
+* Quantity cannot be negative
+* Progress 0–100
+* Household members cannot be negative
+* Inventory cannot issue more than available stock unless authorized
+* Permit expiry must be valid
+* Sand extraction quantity must be positive
+* GPS must be valid when entered
+* Project budget must be valid
+* Date cannot be invalid
+
+============================================================
+
+## 43. TESTING
+
+============================================================
+
+Write automated tests.
+
+Test:
+
+* Authentication
+* Permissions
+* Household CRUD
+* Household member calculations
+* Population calculations
+* Project CRUD
+* Budget
+* Expenses
+* Cash flow
+* Inventory
+* Donations
+* Labor
+* Sand extraction
+* Sand quantity calculation
+* Sand revenue
+* Sand expenses
+* Sand net revenue
+* Permit validation
+* Environmental inspection
+* Excel import
+* Excel export
+* PDF reports
+* Search
+* Pagination
+
+Required formulas:
+
+`Household Total = Male + Female`
+
+`Sand Total Quantity = Quantity per Trip × Number of Trips`
+
+`Sand Revenue = Total Quantity × Rate`
+
+`Sand Total Expense = Permit Fee + Transport + Labor + Other Expense`
+
+`Sand Net Revenue = Revenue - Total Expense`
+
+`Inventory Balance = Opening + Received - Issued`
+
+`Cash Closing = Opening + Income - Expense`
+
+`Budget Remaining = Approved Budget - Actual Spending`
+
+============================================================
+
+## 44. DEMO DATA
+
+============================================================
+
+Create demo records.
+
+Clearly mark all demo data:
+
+`DEMO DATA`
+
+Do not confuse demo records with real records.
+
+============================================================
+
+## 45. SETTINGS
+
+============================================================
+
+Settings:
+
+* Village Name
+* Township
+* District
+* Region/State
+* Address
+* Phone
+* Email
+* Logo
+* Theme
+* Language
+* Currency
+* Date format
+* Fiscal year
+* Organization information
+
+Currency:
+
+`MMK / ကျပ်`
+
+============================================================
+
+## 46. UI DESIGN
+
+============================================================
+
+Create modern professional civic management UI.
+
+Desktop:
+
+Sidebar navigation.
+
+Mobile:
+
+Responsive drawer/bottom navigation.
+
+Use:
+
+* KPI cards
+* Charts
+* Tables
+* Search
+* Filters
+* Forms
+* Tabs
+* Progress bars
+* Status badges
+* Modal dialogs
+* Detail pages
+
+Do not create cluttered UI.
+
+============================================================
+
+## 47. REPORT HEADER
+
+============================================================
+
+Every report should show:
+
+**မန့်နောင်ရွာ ရပ်ရွာဖွံ့ဖြိုးရေး**
+
+**Mant Naung Village Community Development**
+
+Report title
+
+Date range
+
+Generated by
+
+Filters
+
+Data
+
+Summary
+
+Prepared by
+
+Checked by
+
+Approved by
+
+Signature area
+
+============================================================
+
+## 48. APPROVAL WORKFLOW
+
+============================================================
+
+For financial/project/resource records:
+
+Draft
+
+→ Submitted
+
+→ Checked
+
+→ Approved / Rejected
+
+Support:
+
+* Prepared By
+* Checked By
+* Approved By
+* Approval Date
+* Remarks
+
+============================================================
+
+## 49. DATA RELATIONSHIPS
+
+============================================================
+
+Important relationships:
+
+Household
+→ Household Members
+
+Project
+→ Budget
+→ Expenses
+→ Donations
+→ Labor
+→ Documents
+→ Photos
+
+Sand Extraction
+→ Permit
+→ Trips
+→ Vehicle
+→ Project
+→ Revenue
+→ Expenses
+→ Environmental Inspection
+→ Photos
+→ Documents
+
+Inventory
+→ Purchase/Receive
+→ Issue
+→ Project
+
+Project
+→ Community development category
+
+============================================================
+
+## 50. INITIAL DATA MIGRATION
+
+============================================================
+
+Before application launch:
+
+1. Inspect Excel workbook.
+2. Create mapping.
+3. Import valid data.
+4. Detect duplicates.
+5. Report errors.
+6. Preserve original workbook.
+7. Generate migration report.
+8. Verify totals.
+9. Verify formulas.
+10. Confirm imported data.
+
+============================================================
+
+## 51. DOCUMENTATION
+
+============================================================
+
+Create:
+
+README.md
+
+USER_GUIDE.md
+
+DATABASE_SCHEMA.md
+
+API_DOCUMENTATION.md
+
+DEPLOYMENT.md
+
+IMPORT_GUIDE.md
+
+BACKUP_RESTORE.md
+
+TEST_REPORT.md
+
+Provide Burmese + English documentation for user-facing instructions.
+
+============================================================
+
+## 52. PRODUCTION REQUIREMENT
+
+============================================================
+
+Do NOT return only source code snippets or architecture descriptions.
+
+Actually build the complete application.
+
+Do NOT use:
+
+* Fake buttons
+* Fake APIs
+* Empty pages
+* Placeholder CRUD
+* TODO instead of functionality
+* Hardcoded production credentials
+* Mock functionality presented as real
+
+Every navigation item must lead to a functioning module.
+
+Every CRUD module must actually save data.
+
+Every calculation must be implemented.
+
+Every report must use real database data.
+
+============================================================
+
+## 53. FINAL QUALITY CHECK
+
+============================================================
+
+Before completion verify:
+
+[ ] Burmese language works
+[ ] English language works
+[ ] Shan language removed
+[ ] Excel data imported
+[ ] Dashboard works
+[ ] Household works
+[ ] Household Members works
+[ ] Population works
+[ ] Projects works
+[ ] Temple works
+[ ] Roads works
+[ ] Bridges works
+[ ] Drainage works
+[ ] Water works
+[ ] Electricity works
+[ ] Public Buildings works
+[ ] School works
+[ ] Fire Station works
+[ ] Emergency works
+[ ] Machinery works
+[ ] Inventory works
+[ ] Stream Sand Extraction works
+[ ] Sand permits work
+[ ] Sand trips work
+[ ] Sand revenue works
+[ ] Sand expenses work
+[ ] Sand environmental inspection works
+[ ] Donations works
+[ ] Labor works
+[ ] Budget works
+[ ] Expenses works
+[ ] Cash Flow works
+[ ] Documents work
+[ ] Photos work
+[ ] Reports work
+[ ] Excel import works
+[ ] Excel export works
+[ ] PDF export works
+[ ] Search works
+[ ] Filters work
+[ ] Authentication works
+[ ] RBAC works
+[ ] Audit log works
+[ ] Backup works
+[ ] Restore works
+[ ] Mobile UI works
+[ ] PWA works
+[ ] Offline synchronization works where implemented
+[ ] Automated tests pass
+[ ] Production build succeeds
+[ ] No broken links
+[ ] No fake buttons
+[ ] No TODO placeholders
+[ ] No hardcoded secrets
+
+============================================================
+
+## 54. FINAL DELIVERY
+
+============================================================
+
+When finished provide:
+
+1. Production URL
+2. Admin setup
+3. Login/setup instructions
+4. Database status
+5. Imported workbook status
+6. Number of imported records
+7. Completed modules
+8. Test results
+9. Deployment details
+10. Backup instructions
+11. User guide
+12. Known limitations
+
+FINAL PRODUCT:
+
+**မန့်နောင်ရွာ ဘုရားကျောင်းသစ် + ရပ်ရွာဖွံ့ဖြိုးရေး + အိမ်ထောင်စု + စီမံကိန်း + ဘဏ္ဍာရေး + အလှူငွေ + စတော့ + စက်ယန္တရား + ချောင်းသဲထုတ်ယူမှု စီမံခန့်ခွဲမှုစနစ်**
+
+**Mant Naung Village Community Development Management System**
+
+Build it as a real production-ready application, not a prototype.
